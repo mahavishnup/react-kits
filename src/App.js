@@ -1,12 +1,15 @@
-import './App.css';
-// import HeadlessUI from "./components/headlessUI/Main";
-import SkeletonLoader from "./components/skeletonLoader/Main";
+import React from "react";
+import Router from "./components/router/Main"
+import NavBar from "./components/navbar/Main"
+import Footer from "./components/footer/Main"
+import "./App.css";
 
 function App() {
   return (
     <>
-      {/* <HeadlessUI /> */}
-      <SkeletonLoader />
+      <NavBar />
+      <Router />
+      <Footer />
     </>
   );
 }
