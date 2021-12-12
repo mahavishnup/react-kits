@@ -1,7 +1,28 @@
 {
   "name": "react-kits",
   "version": "0.1.0",
+  "description": "Tailwind based Skeleton Loader, Headless UI.",
   "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahavishnup/react-kits"
+  },
+  "keywords": [
+    "react",
+    "heroku",
+    "tailwind",
+    "skeleton",
+    "headless",
+    "heroicons",
+    "react-use",
+    "animation"
+  ],
+  "engines": {
+    "node": "v16.x",
+    "npm": "8.x",
+    "yarn": "1.x"
+  },
   "dependencies": {
     "@headlessui/react": "^1.4.2",
     "@heroicons/react": "^1.0.5",
@@ -12,7 +33,10 @@
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0-next.58",
     "react-use": "^17.3.1",
-    "web-vitals": "^2.1.2"
+    "web-vitals": "^2.1.2",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "tailwindcss": "^3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,10 +61,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.4",
-    "tailwindcss": "^3.0.1"
   }
 }

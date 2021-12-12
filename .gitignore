@@ -23,3 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 node-js-getting-started
+package-lock.json
