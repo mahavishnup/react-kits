@@ -6,12 +6,10 @@ import Two from "./design/Two";
 const Main = () => {
   return (
     <>
-      <div class="container text-center">
-        <h1 class="mt-5">
+      <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl p-10">
+        <h1 class="text-center mt-5">
           <strong class="text-fuchsia-600">Skeleton Loader</strong>
         </h1>
-      </div>
-      <div class="flex-1 flex p-10">
         <One />
         <Two />
         <Three />

@@ -3,7 +3,7 @@ import React from 'react'
 const Three = () => {
     return (
       <>
-        <div class="w-1/3">
+        <div class="w-100">
           <div class="flex items-center justify-center animate-pulse">
             <div class="w-64 bg-white rounded">
               <div class="h-32 bg-gray-200 rounded-tr rounded-tl animate-pulse"></div>

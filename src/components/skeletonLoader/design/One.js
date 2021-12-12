@@ -3,7 +3,7 @@ import React from 'react'
 const One = () => {
     return (
       <>
-        <div class="w-1/3">
+        <div class="w-100">
           <div class="animate-pulse">
             <div class="mt-8 h-4 gradient-purple-pink-red rounded-full w-4/5"></div>
             <div class="py-6">
