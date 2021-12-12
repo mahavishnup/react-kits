@@ -3,6 +3,10 @@
 ### Getting Started
 
 ```shell
+npm install
+```
+
+```shell
 npm start
 ```
 
