@@ -1,0 +1,7 @@
+{
+  "buildpacks": [
+    {
+      "url": "react-kits/create-react-app"
+    }
+  ]
+}
