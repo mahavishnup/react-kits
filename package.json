@@ -38,6 +38,10 @@
     "postcss": "^8.4.4",
     "tailwindcss": "^3.0.1"
   },
+  "root": "build/",
+  "routes": {
+    "/**": "index.html"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
