@@ -1,7 +1,7 @@
 {
   "buildpacks": [
     {
-      "url": "react-kits/create-react-app"
+      "url": "mars/create-react-app"
     }
   ]
 }
