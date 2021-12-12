@@ -1,15 +1,16 @@
 import React from "react";
-import Router from "./components/router/Main"
-import NavBar from "./components/navbar/Main"
-import Footer from "./components/footer/Main"
+import { Routes, Route } from "react-router-dom";
+import HeadlessUI from "./components/headlessUI/HeadlessUI";
+import SkeletonLoader from "./components/skeletonLoader/SkeletonLoader";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <NavBar />
-      <Router />
-      <Footer />
+      <Routes>
+        <Route path="/" exact element={<SkeletonLoader />} />
+        <Route path="/headlessui" element={<HeadlessUI />} />
+      </Routes>
     </>
   );
 }
