@@ -25,6 +25,7 @@ yarn-error.log*
 package-lock.json
 
 *.dev
+build
 .DS_Store
 
 # Docker
