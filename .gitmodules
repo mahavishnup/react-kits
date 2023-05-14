@@ -1,0 +1,3 @@
+[submodule "React-Django-To-Do-App"]
+	path = React-Django-To-Do-App
+	url = ./React-Django-To-Do-App
